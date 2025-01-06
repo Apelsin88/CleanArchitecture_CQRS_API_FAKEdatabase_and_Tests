@@ -25,6 +25,7 @@ namespace API.Controllers
 
 
         [HttpGet]
+        [ResponseCache(CacheProfileName = "DefaultCache")]
         public async Task<ActionResult<List<Author>>> GetAllAuthors()
         {
             var authors = await _mediator.Send(new GetAllAuthorsQuery());

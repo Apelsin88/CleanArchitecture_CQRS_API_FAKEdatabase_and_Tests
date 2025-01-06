@@ -1,6 +1,5 @@
-﻿using Application.Books.Commands.DeleteBook;
+﻿using Application.Interfaces.RepositoryInterfaces;
 using Domain;
-using Infrastructure.Database;
 using MediatR;
 using System;
 using System.Collections.Generic;
@@ -10,30 +9,29 @@ using System.Threading.Tasks;
 
 namespace Application.Authors.Commands.DeleteAuthor
 {
-    public class DeleteAuthorCommandHandler : IRequestHandler<DeleteAuthorCommand, bool>
+    public class DeleteAuthorCommandHandler : IRequestHandler<DeleteAuthorCommand, string>
     {
-        private readonly FakeDatabase _fakeDatabase;
+        private readonly IAuthorRepository _authorRepository;
 
-        public DeleteAuthorCommandHandler(FakeDatabase fakeDatabase)
+        public DeleteAuthorCommandHandler(IAuthorRepository authorRepository)
         {
-            _fakeDatabase = fakeDatabase;
+            _authorRepository = authorRepository;
         }
 
-        public Task<bool> Handle(DeleteAuthorCommand request, CancellationToken cancellationToken)
+        public Task<string> Handle(DeleteAuthorCommand request, CancellationToken cancellationToken)
         {
             if (request.Id <= 0)
             {
                 throw new ArgumentException("Author ID must be a positive integer.", nameof(request.Id));
             }
 
-            var AuthorToDelete = _fakeDatabase.GetAuthorById(request.Id);
-            if (AuthorToDelete == null)
+            var authorToDelete = _authorRepository.DeleteAuthorById(request.Id);
+            if (authorToDelete == null)
             {
                 throw new KeyNotFoundException($"No Author found with ID {request.Id}.");
             }
 
-            bool isDeleted = _fakeDatabase.DeleteAuthor(request.Id);
-            return Task.FromResult(isDeleted);
+            return Task.FromResult("Author deleted");
         }
     }
 }

@@ -16,6 +16,7 @@ C:\Users\JA365\source\repos\RenArkitektur_CQRS_API_FAKEdatabas_Tester\Domain\obj
 C:\Users\JA365\source\repos\RenArkitektur_CQRS_API_FAKEdatabas_Tester\Domain\obj\Debug\net8.0\Domain.AssemblyInfoInputs.cache
 C:\Users\JA365\source\repos\RenArkitektur_CQRS_API_FAKEdatabas_Tester\Domain\obj\Debug\net8.0\Domain.AssemblyInfo.cs
 C:\Users\JA365\source\repos\RenArkitektur_CQRS_API_FAKEdatabas_Tester\Domain\obj\Debug\net8.0\Domain.csproj.CoreCompileInputs.cache
+C:\Users\JA365\source\repos\RenArkitektur_CQRS_API_FAKEdatabas_Tester\Domain\obj\Debug\net8.0\Domain.sourcelink.json
 C:\Users\JA365\source\repos\RenArkitektur_CQRS_API_FAKEdatabas_Tester\Domain\obj\Debug\net8.0\Domain.dll
 C:\Users\JA365\source\repos\RenArkitektur_CQRS_API_FAKEdatabas_Tester\Domain\obj\Debug\net8.0\refint\Domain.dll
 C:\Users\JA365\source\repos\RenArkitektur_CQRS_API_FAKEdatabas_Tester\Domain\obj\Debug\net8.0\Domain.pdb
