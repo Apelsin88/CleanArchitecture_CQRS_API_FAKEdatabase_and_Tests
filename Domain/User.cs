@@ -6,8 +6,12 @@ using System.Threading.Tasks;
 
 namespace Domain
 {
-    //public class User
-    //{
+    public class User
+    {
+        public Guid Id { get; set; }
 
-    //}
+        public string UserName { get; set; } = string.Empty;
+
+        public string Password { get; set; } = string.Empty;
+    }
 }

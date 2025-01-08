@@ -9,6 +9,20 @@ namespace Infrastructure.Database
 {
     public class FakeDatabase
     {
+
+        public List<User> Users
+        {
+            get { return allUsers;}
+            set { allUsers = value; }
+        }
+        private static List<User> allUsers = new()
+        {
+            new User { Id = Guid.NewGuid(), UserName = "Jolle"},
+            new User { Id = Guid.NewGuid(), UserName = "Loke"},
+            new User { Id = Guid.NewGuid(), UserName = "Cedrik"},
+            new User { Id = new Guid("12345678-1234-4321-1234-121212121212"), UserName = "TestUserName"}
+        };
+
         public List<Book> Books { get { return allBooksFromDB; } set { allBooksFromDB = value; } }
 
         private static List<Book> allBooksFromDB = new List<Book>

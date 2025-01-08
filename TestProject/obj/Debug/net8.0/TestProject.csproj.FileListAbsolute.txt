@@ -258,6 +258,7 @@ C:\Users\JA365\source\repos\RenArkitektur_CQRS_API_FAKEdatabas_Tester\TestProjec
 C:\Users\JA365\source\repos\RenArkitektur_CQRS_API_FAKEdatabas_Tester\TestProject\obj\Debug\net8.0\TestProject.AssemblyInfoInputs.cache
 C:\Users\JA365\source\repos\RenArkitektur_CQRS_API_FAKEdatabas_Tester\TestProject\obj\Debug\net8.0\TestProject.AssemblyInfo.cs
 C:\Users\JA365\source\repos\RenArkitektur_CQRS_API_FAKEdatabas_Tester\TestProject\obj\Debug\net8.0\TestProject.csproj.CoreCompileInputs.cache
+C:\Users\JA365\source\repos\RenArkitektur_CQRS_API_FAKEdatabas_Tester\TestProject\obj\Debug\net8.0\TestProject.sourcelink.json
 C:\Users\JA365\source\repos\RenArkitektur_CQRS_API_FAKEdatabas_Tester\TestProject\obj\Debug\net8.0\TestProject.csproj.CopyComplete
 C:\Users\JA365\source\repos\RenArkitektur_CQRS_API_FAKEdatabas_Tester\TestProject\obj\Debug\net8.0\TestProject.dll
 C:\Users\JA365\source\repos\RenArkitektur_CQRS_API_FAKEdatabas_Tester\TestProject\obj\Debug\net8.0\refint\TestProject.dll

@@ -35,9 +35,6 @@
             "projectReferences": {
               "C:\\Users\\JA365\\source\\repos\\RenArkitektur_CQRS_API_FAKEdatabas_Tester\\Domain\\Domain.csproj": {
                 "projectPath": "C:\\Users\\JA365\\source\\repos\\RenArkitektur_CQRS_API_FAKEdatabas_Tester\\Domain\\Domain.csproj"
-              },
-              "C:\\Users\\JA365\\source\\repos\\RenArkitektur_CQRS_API_FAKEdatabas_Tester\\Infrastructure\\Infrastructure.csproj": {
-                "projectPath": "C:\\Users\\JA365\\source\\repos\\RenArkitektur_CQRS_API_FAKEdatabas_Tester\\Infrastructure\\Infrastructure.csproj"
               }
             }
           }
@@ -55,6 +52,22 @@
             "MediatR": {
               "target": "Package",
               "version": "[12.4.1, )"
+            },
+            "Microsoft.Extensions.Caching.Abstractions": {
+              "target": "Package",
+              "version": "[9.0.0, )"
+            },
+            "Microsoft.Extensions.Configuration.Abstractions": {
+              "target": "Package",
+              "version": "[9.0.0, )"
+            },
+            "Microsoft.IdentityModel.Tokens": {
+              "target": "Package",
+              "version": "[6.35.0, )"
+            },
+            "System.IdentityModel.Tokens.Jwt": {
+              "target": "Package",
+              "version": "[6.35.0, )"
             }
           },
           "imports": [
@@ -166,6 +179,9 @@
           "net8.0": {
             "targetAlias": "net8.0",
             "projectReferences": {
+              "C:\\Users\\JA365\\source\\repos\\RenArkitektur_CQRS_API_FAKEdatabas_Tester\\Application\\Application.csproj": {
+                "projectPath": "C:\\Users\\JA365\\source\\repos\\RenArkitektur_CQRS_API_FAKEdatabas_Tester\\Application\\Application.csproj"
+              },
               "C:\\Users\\JA365\\source\\repos\\RenArkitektur_CQRS_API_FAKEdatabas_Tester\\Domain\\Domain.csproj": {
                 "projectPath": "C:\\Users\\JA365\\source\\repos\\RenArkitektur_CQRS_API_FAKEdatabas_Tester\\Domain\\Domain.csproj"
               }
